@@ -1,0 +1,6 @@
+{
+  "summary":  "Completed the removal of all live streaming features across client views, components, navigation, types, backend server routes, and database models.",
+  "updatedAt":  "2026-10-31T11:57:46.032440305Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

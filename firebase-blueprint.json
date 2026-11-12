@@ -1,0 +1,201 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Store registered user profiles and Google authenticated accounts.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID"
+        },
+        "name": {
+          "type": "string",
+          "description": "User display name"
+        },
+        "email": {
+          "type": "string",
+          "description": "User email address"
+        },
+        "avatar": {
+          "type": "string",
+          "description": "User avatar photo URL"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Contact phone number"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["user", "admin"]
+        },
+        "riderPoints": {
+          "type": "number",
+          "description": "Loyalty points earned"
+        },
+        "tierRank": {
+          "type": "string",
+          "description": "Rider member tier rank"
+        },
+        "lastIp": {
+          "type": "string",
+          "description": "Real detected IP address"
+        },
+        "registeredAt": {
+          "type": "string"
+        },
+        "isBlocked": {
+          "type": "boolean"
+        }
+      },
+      "required": ["uid", "name", "email"]
+    },
+    "Customer": {
+      "title": "Registered Customer Record",
+      "description": "Customer record with real IP tracking for Admin control",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "riderPoints": {
+          "type": "number"
+        },
+        "tierRank": {
+          "type": "string"
+        },
+        "registeredIp": {
+          "type": "string"
+        },
+        "lastIp": {
+          "type": "string"
+        },
+        "registeredAt": {
+          "type": "string"
+        },
+        "lastLoginAt": {
+          "type": "string"
+        },
+        "isBlocked": {
+          "type": "boolean"
+        }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "LiveStream": {
+      "title": "Live Stream Room State",
+      "description": "Real-time live broadcast state synchronized across all clients",
+      "type": "object",
+      "properties": {
+        "isLive": {
+          "type": "boolean"
+        },
+        "title": {
+          "type": "string"
+        },
+        "hostName": {
+          "type": "string"
+        },
+        "hostId": {
+          "type": "string"
+        },
+        "startedAt": {
+          "type": "string"
+        },
+        "pinnedProductId": {
+          "type": "string"
+        },
+        "viewersCount": {
+          "type": "number"
+        }
+      },
+      "required": ["isLive"]
+    },
+    "BannedIp": {
+      "title": "Banned IP Address",
+      "description": "List of real IP addresses blocked by Admin",
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "Client IP address string"
+        },
+        "reason": {
+          "type": "string",
+          "description": "Reason for blocking IP"
+        },
+        "bannedAt": {
+          "type": "string"
+        }
+      },
+      "required": ["ip"]
+    },
+    "Feedback": {
+      "title": "Customer Feedback & Review",
+      "description": "Customer feedback and review ratings synchronized across clients",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "customerName": { "type": "string" },
+        "customerLocation": { "type": "string" },
+        "customerAvatar": { "type": "string" },
+        "rating": { "type": "number" },
+        "category": { "type": "string" },
+        "productId": { "type": "string" },
+        "productName": { "type": "string" },
+        "productImage": { "type": "string" },
+        "comment": { "type": "string" },
+        "images": { "type": "array" },
+        "verifiedPurchase": { "type": "boolean" },
+        "date": { "type": "string" },
+        "helpfulCount": { "type": "number" },
+        "syncedAt": { "type": "string" }
+      },
+      "required": ["customerName", "rating", "comment"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/User"
+      },
+      "description": "User account documents indexed by Firebase Auth UID"
+    },
+    "/customers/{customerId}": {
+      "schema": {
+        "$ref": "#/entities/Customer"
+      },
+      "description": "Customer documents with real IP for Admin panel"
+    },
+    "/feedbacks/{feedbackId}": {
+      "schema": {
+        "$ref": "#/entities/Feedback"
+      },
+      "description": "Customer reviews and feedback synchronized live"
+    },
+    "/livestream/{streamId}": {
+      "schema": {
+        "$ref": "#/entities/LiveStream"
+      },
+      "description": "Live stream status document for instant real-time room discovery"
+    },
+    "/banned_ips/{ipId}": {
+      "schema": {
+        "$ref": "#/entities/BannedIp"
+      },
+      "description": "Real IP blacklist records"
+    }
+  }
+}

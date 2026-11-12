@@ -1,0 +1,45 @@
+[
+  {
+    "id": "room_npt_official",
+    "title": "Đại Tiệc Siêu Phẩm DX & CSM Tokusatsu 2026 - Showroom NPTTEAMSTORE Live",
+    "hostId": "admin_danh_nguyen",
+    "hostName": "Danh Nguyễn (NPT Admin)",
+    "hostAvatar": "/Logo & Thương Hiệu (Brand Logo)/dreamina-2026-07-29-3008-A minimalist stencil-style logo of an oc....png",
+    "hostRole": "admin",
+    "hostBadge": "👑 BQT STORE CHÍNH HÃNG",
+    "isOfficial": true,
+    "category": "Đai Biến Hình DX & CSM",
+    "status": "live",
+    "startedAt": "Đang phát sóng",
+    "pinnedProductId": "p1",
+    "thumbnail": "/Ảnh Showroom & Cửa Hàng/20240708_161850.jpg",
+    "viewerCount": 158,
+    "isChatLocked": false,
+    "totalOrders": 12,
+    "totalRevenue": 28400000,
+    "productStocks": {
+      "p1": 8,
+      "p2": 5,
+      "p3": 12,
+      "p4": 3,
+      "p5": 7
+    },
+    "flashSale": {
+      "active": true,
+      "code": "LIVEVIP50",
+      "discountText": "Giảm 15% tối đa 250k khi chốt trực tiếp trên Live",
+      "percent": 15,
+      "maxDiscount": 250000,
+      "expiresAt": "23:59",
+      "durationSeconds": 300
+    },
+    "videoConfig": {
+      "resolution": "1080p",
+      "fps": 60,
+      "bitrateMbps": 4,
+      "svcEnabled": true,
+      "stabilization": true,
+      "autofocus": true
+    }
+  }
+]

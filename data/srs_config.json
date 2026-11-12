@@ -1,0 +1,14 @@
+{
+  "serverUrl": "http://localhost:1985",
+  "app": "live",
+  "stream": "livestream",
+  "apiType": "internal-mesh",
+  "rtmpPort": 1935,
+  "httpPort": 1985,
+  "webrtcPort": 8000,
+  "enabled": true,
+  "rtmpUrl": "rtmp://localhost:1935/live/livestream",
+  "webrtcUrl": "webrtc://localhost/live/livestream",
+  "whipUrl": "/rtc/v1/whip/?app=live&stream=livestream",
+  "whepUrl": "/rtc/v1/whep/?app=live&stream=livestream"
+}

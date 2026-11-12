@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Connection test document
+    match /test/connection {
+      allow read: if true;
+    }
+
+    // Live Stream synchronization (Public read so all clients see active rooms immediately)
+    match /livestream/{streamId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // WebRTC Peer Connection Signaling for 30-60 FPS zero-lag streaming
+    match /livestream_peers/{peerId} {
+      allow read, write: if true;
+    }
+    match /livestream_peers/{peerId}/{sub=**} {
+      allow read, write: if true;
+    }
+
+    // Customer Records with real IP for Admin Portal
+    match /customers/{customerId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if request.auth != null;
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if request.auth != null;
+    }
+
+    // Banned IPs collection
+    match /banned_ips/{ipId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Orders Collection
+    match /orders/{orderId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+
+    // Customer Feedbacks & Reviews
+    match /feedbacks/{feedbackId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+  }
+}

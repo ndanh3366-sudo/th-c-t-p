@@ -1,0 +1,647 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-title {
+    font-family: 'Montserrat', 'Cinzel', system-ui, sans-serif;
+    letter-spacing: 0.02em;
+  }
+  .font-luxury-body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  .font-sans-body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+:root {
+  --bg-dark: #030508;
+  --bg-charcoal: #0a0e14;
+  --bg-card: rgba(8, 12, 20, 0.88);
+  --bg-card-hover: rgba(15, 20, 28, 0.95);
+  --border-aqua: rgba(6, 182, 212, 0.4);
+  --aqua-neon: #06b6d4;
+  --aqua-cyan: #22d3ee;
+  --gold-neon: #fbbf24;
+  --snow-white: #f1f5f9;
+  --aqua-glow: rgba(6, 182, 212, 0.35);
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Nền web Dark Mode Xanh Đêm Sâu #0A0F1D + Đen than #121214 */
+body {
+  font-family: 'Plus Jakarta Sans', 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* GPU Hardware-accelerated fixed deep night winter background layer */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background: 
+    radial-gradient(circle at 20% 12%, var(--aqua-glow) 0%, transparent 45%),
+    radial-gradient(circle at 80% 25%, rgba(6, 182, 212, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 50% 85%, rgba(251, 191, 36, 0.06) 0%, transparent 55%),
+    linear-gradient(180deg, var(--bg-dark) 0%, #080c14 35%, var(--bg-charcoal) 100%);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+/* Silky smooth micro-interactions */
+button, a, input, select, textarea, .group {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Global text popping & high contrast */
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.85);
+  letter-spacing: 0.015em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* High contrast text popping helpers */
+.text-pop {
+  color: #ffffff !important;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.95), 0 0 16px rgba(0, 0, 0, 0.85) !important;
+}
+
+.text-pop-gold {
+  color: #fbbf24 !important;
+  text-shadow: 0 0 16px rgba(245, 158, 11, 0.5), 0 2px 4px rgba(0, 0, 0, 0.9) !important;
+}
+
+.text-pop-cyan {
+  color: #22d3ee !important;
+  text-shadow: 0 0 16px rgba(6, 182, 212, 0.5), 0 2px 4px rgba(0, 0, 0, 0.9) !important;
+}
+
+.text-pop-red {
+  color: #f43f5e !important;
+  text-shadow: 0 0 16px rgba(244, 63, 94, 0.6), 0 2px 4px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* ========================================================
+   GÓC CẠNH (ANGULAR SCI-FI & TOKUSATSU GEOMETRY)
+   ======================================================== */
+.angular-cut {
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+
+.angular-cut-sm {
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+}
+
+.angular-cut-lg {
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
+}
+
+.angular-cut-top {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+.angular-cut-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+}
+
+.angular-cut-notch {
+  clip-path: polygon(8px 0%, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+}
+
+/* ========================================================
+   GLASSMORPHISM: TẤM BĂNG MỎNG TRONG SUỐT (THIN ICE GLASS)
+   ======================================================== */
+.glass-ice-panel {
+  background: rgba(10, 15, 29, 0.82) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(0, 242, 254, 0.35) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6), inset 0 1px 1px 0 rgba(224, 247, 250, 0.15) !important;
+}
+
+.glass-ice-panel:hover {
+  border-color: rgba(5, 255, 210, 0.65) !important;
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.75), 0 0 22px rgba(0, 242, 254, 0.35), inset 0 1px 2px 0 rgba(224, 247, 250, 0.25) !important;
+}
+
+.glass-ice-card {
+  background: linear-gradient(135deg, rgba(10, 15, 29, 0.9) 0%, rgba(18, 18, 20, 0.95) 100%) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  border: 1px solid rgba(0, 242, 254, 0.35) !important;
+}
+
+/* ========================================================
+   NEON GLOW (BOX SHADOW) AQUA #00F2FE & GOLD #FFD700
+   ======================================================== */
+.neon-glow-aqua {
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.45), 0 0 30px rgba(0, 242, 254, 0.2) !important;
+}
+
+.neon-glow-aqua-intense {
+  box-shadow: 0 0 25px rgba(0, 242, 254, 0.7), 0 0 45px rgba(5, 255, 210, 0.4), inset 0 0 10px rgba(0, 242, 254, 0.2) !important;
+}
+
+.neon-glow-gold {
+  box-shadow: 0 0 16px rgba(255, 215, 0, 0.55), 0 0 28px rgba(255, 215, 0, 0.25) !important;
+}
+
+.neon-border-aqua {
+  border: 1px solid rgba(0, 242, 254, 0.5) !important;
+  box-shadow: inset 0 0 8px rgba(0, 242, 254, 0.15), 0 0 12px rgba(0, 242, 254, 0.25) !important;
+}
+
+.text-snow {
+  color: #E0F7FA !important;
+}
+
+.text-neon-aqua {
+  color: #00F2FE !important;
+  text-shadow: 0 0 12px rgba(0, 242, 254, 0.65) !important;
+}
+
+.text-neon-cyan {
+  color: #05FFD2 !important;
+  text-shadow: 0 0 12px rgba(5, 255, 210, 0.65) !important;
+}
+
+.text-neon-gold {
+  color: #FFD700 !important;
+  text-shadow: 0 0 14px rgba(255, 215, 0, 0.75), 0 2px 4px rgba(0, 0, 0, 0.8) !important;
+}
+@media (max-width: 768px) {
+  .backdrop-blur-md,
+  .backdrop-blur-lg,
+  .backdrop-blur-xl,
+  .backdrop-blur-sm,
+  .backdrop-blur {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+}
+
+/* GPU Hardware Acceleration & Smooth Rendering */
+.gpu-accelerate {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Off-screen DOM rendering optimization for long product grids */
+.product-card-container {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 320px;
+}
+
+/* Touch scrolling behavior for mobile */
+.no-scrollbar {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile tap highlight reset */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom Aqua Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 255, 0.5);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00FFFF;
+}
+
+/* High Contrast & Maximum Legibility Typography (Dễ nhìn nhất, rõ nét nhất) */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FDE047 0%, #F59E0B 60%, #D97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+}
+
+.silver-gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 60%, #CBD5E1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+}
+
+.aqua-gradient-text {
+  background: linear-gradient(135deg, #00f5d4 0%, #22d3ee 50%, #0284c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 8px rgba(6, 182, 212, 0.5));
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+}
+
+.aqua-gradient-bg {
+  background: linear-gradient(135deg, #00f5d4 0%, #06b6d4 50%, #0284c7 100%);
+}
+
+.silver-gradient-bg {
+  background: linear-gradient(135deg, #334155 0%, #475569 50%, #64748B 100%);
+}
+
+/* Hiệu ứng Gradient chạy siêu mượt (Aqua Flow) */
+@keyframes aquaGradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.aqua-gradient-flow {
+  background: linear-gradient(-45deg, #00f5d4, #06b6d4, #2563eb, #00f5d4);
+  background-size: 300% 300%;
+  animation: aquaGradientFlow 6s ease infinite;
+}
+
+.aqua-gradient-flow-fast {
+  background: linear-gradient(-45deg, #00f5d4, #38bdf8, #6366f1, #00f5d4);
+  background-size: 250% 250%;
+  animation: aquaGradientFlow 4s ease infinite;
+}
+
+.aqua-gradient-flow-subtle {
+  background: linear-gradient(-45deg, rgba(0, 245, 212, 0.15), rgba(6, 182, 212, 0.25), rgba(37, 99, 235, 0.15), rgba(0, 245, 212, 0.15));
+  background-size: 300% 300%;
+  animation: aquaGradientFlow 10s ease infinite;
+}
+
+/* Viền Aqua chạy gradient bóng mượt */
+.aqua-running-border {
+  position: relative;
+  border-radius: 1rem;
+  background: #080e1e;
+}
+
+.aqua-running-border::before {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(90deg, #00f5d4, #06b6d4, #3b82f6, #00f5d4);
+  background-size: 300% 300%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: aquaGradientFlow 6s linear infinite;
+  pointer-events: none;
+}
+
+/* Thẻ Card bóng gương (Glossy Sheen & Glass Reflection) */
+.aqua-glossy-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(13, 23, 48, 0.85) 0%, rgba(6, 11, 23, 0.95) 100%);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+}
+
+.aqua-glossy-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.aqua-glossy-card:hover {
+  border-color: rgba(0, 245, 212, 0.7);
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.7), 0 0 25px rgba(0, 245, 212, 0.25), inset 0 1px 2px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Metallic Sweep Effect on Hover (Ánh sáng bóng quét mượt) */
+.metallic-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.metallic-sheen::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 35%,
+    rgba(0, 245, 212, 0.18) 50%,
+    transparent 65%
+  );
+  transform: rotate(30deg) translateX(-100%);
+  transition: transform 0.8s ease-in-out;
+  pointer-events: none;
+}
+
+.metallic-sheen:hover::after {
+  transform: rotate(30deg) translateX(100%);
+}
+
+/* Dark Luxury Cards with Aqua Borders */
+.dark-card {
+  background-color: #11131a !important;
+  border: 1px solid rgba(0, 255, 255, 0.35) !important;
+  color: #f8fafc !important;
+}
+
+.dark-card:hover {
+  border-color: rgba(0, 255, 255, 0.7) !important;
+  box-shadow: 0 0 16px rgba(0, 255, 255, 0.2) !important;
+}
+
+/* Shimmer Effect */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-gold {
+  background: linear-gradient(90deg, rgba(0,255,255,0) 0%, rgba(0,255,255,0.3) 50%, rgba(0,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+@keyframes aquaPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 22px rgba(0, 255, 255, 0.45);
+  }
+}
+
+.pulse-gold-glow {
+  animation: aquaPulse 3s infinite ease-in-out;
+}
+
+/* Aqua Interactive Button */
+.btn-luxury {
+  background: linear-gradient(135deg, #00FFFF 0%, #06B6D4 100%) !important;
+  color: #08090d !important;
+  font-weight: 800 !important;
+  transition: all 0.2s ease;
+  border: 1px solid #00FFFF !important;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.25) !important;
+}
+
+.btn-luxury:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 6px 22px rgba(0, 255, 255, 0.45) !important;
+  transform: translateY(-1px);
+}
+
+.btn-luxury:active {
+  transform: translateY(1px);
+}
+
+/* Cyberpunk & Kamen Rider Visual FX */
+.cyber-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 245, 212, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 245, 212, 0.04) 1px, transparent 1px);
+}
+
+/* Nostalgic Tokusatsu Television Scanline Effect (Hoài niệm tuổi thơ truyền hình TV CRT) */
+.nostalgic-scanline {
+  position: relative;
+}
+.nostalgic-scanline::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+  background-size: 100% 4px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+/* Thẻ Kỷ Nguyên Hoài Niệm Tokusatsu (Showa - Heisei - Reiwa) */
+.nostalgic-era-card {
+  position: relative;
+  background: linear-gradient(145deg, #081024 0%, #050914 100%);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.nostalgic-era-card:hover {
+  border-color: #00f5d4;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 245, 212, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.henshin-aura {
+  position: relative;
+}
+.henshin-aura::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(90deg, #00f5d4, #06b6d4, #3b82f6, #00f5d4);
+  background-size: 300% 300%;
+  border-radius: inherit;
+  z-index: -1;
+  animation: auraGradient 6s ease infinite;
+  opacity: 0.6;
+}
+
+@keyframes auraGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.cyber-badge {
+  background: rgba(10, 14, 22, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Subtle Aqua Card Borders class for streamlined layout */
+.card-aqua-border {
+  border: 1px solid rgba(0, 255, 255, 0.35);
+  transition: all 0.25s ease;
+}
+.card-aqua-border:hover {
+  border-color: rgba(0, 255, 255, 0.8);
+  box-shadow: 0 0 18px rgba(0, 255, 255, 0.25);
+}
+
+/* Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ========================================================
+   LOGO CHUYỂN MÀU LIÊN TỤC & ĐỔ BÓNG LIÊN TỤC
+   (Continuous Hue-Rotate & Dynamic Chromatic Shadow Pulse)
+   ======================================================== */
+@keyframes continuousHueShift {
+  0% {
+    filter: hue-rotate(0deg) drop-shadow(0 0 10px rgba(0, 245, 212, 0.9)) drop-shadow(0 0 22px rgba(6, 182, 212, 0.6));
+  }
+  20% {
+    filter: hue-rotate(72deg) drop-shadow(0 0 14px rgba(56, 189, 248, 0.95)) drop-shadow(0 0 28px rgba(59, 130, 246, 0.65));
+  }
+  40% {
+    filter: hue-rotate(144deg) drop-shadow(0 0 18px rgba(168, 85, 247, 0.95)) drop-shadow(0 0 32px rgba(192, 38, 211, 0.7));
+  }
+  60% {
+    filter: hue-rotate(216deg) drop-shadow(0 0 16px rgba(244, 63, 94, 0.95)) drop-shadow(0 0 28px rgba(239, 68, 68, 0.65));
+  }
+  80% {
+    filter: hue-rotate(288deg) drop-shadow(0 0 14px rgba(251, 146, 60, 0.95)) drop-shadow(0 0 24px rgba(245, 158, 11, 0.65));
+  }
+  100% {
+    filter: hue-rotate(360deg) drop-shadow(0 0 10px rgba(0, 245, 212, 0.9)) drop-shadow(0 0 22px rgba(6, 182, 212, 0.6));
+  }
+}
+
+.logo-chroma-pulse {
+  animation: continuousHueShift 5s linear infinite;
+  will-change: filter;
+}
+
+@keyframes continuousLogoBorderGlow {
+  0% {
+    border-color: #00f5d4;
+    box-shadow: 0 0 18px rgba(0, 245, 212, 0.7), 0 0 36px rgba(0, 245, 212, 0.35), inset 0 0 12px rgba(0, 245, 212, 0.4);
+  }
+  25% {
+    border-color: #38bdf8;
+    box-shadow: 0 0 22px rgba(56, 189, 248, 0.8), 0 0 40px rgba(56, 189, 248, 0.4), inset 0 0 14px rgba(56, 189, 248, 0.45);
+  }
+  50% {
+    border-color: #a855f7;
+    box-shadow: 0 0 24px rgba(168, 85, 247, 0.8), 0 0 42px rgba(168, 85, 247, 0.4), inset 0 0 14px rgba(168, 85, 247, 0.45);
+  }
+  75% {
+    border-color: #f43f5e;
+    box-shadow: 0 0 20px rgba(244, 63, 94, 0.75), 0 0 38px rgba(244, 63, 94, 0.35), inset 0 0 12px rgba(244, 63, 94, 0.4);
+  }
+  100% {
+    border-color: #00f5d4;
+    box-shadow: 0 0 18px rgba(0, 245, 212, 0.7), 0 0 36px rgba(0, 245, 212, 0.35), inset 0 0 12px rgba(0, 245, 212, 0.4);
+  }
+}
+
+.logo-container-glow {
+  animation: continuousLogoBorderGlow 5s linear infinite;
+  will-change: border-color, box-shadow;
+}
+
+/* Interactive Cart Button Hover Scale & Glowing Effects */
+.btn-cart-hover-glow {
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1), filter 0.2s ease, background-color 0.2s ease !important;
+  will-change: transform, box-shadow;
+}
+
+.btn-cart-hover-glow:hover {
+  transform: scale(1.06) translateY(-1.5px) !important;
+  box-shadow: 0 0 22px rgba(0, 245, 212, 0.75), 0 0 40px rgba(6, 182, 212, 0.4), inset 0 0 8px rgba(255, 255, 255, 0.35) !important;
+  filter: brightness(1.12) !important;
+}
+
+.btn-cart-hover-glow:active {
+  transform: scale(0.95) translateY(0) !important;
+  box-shadow: 0 0 10px rgba(0, 245, 212, 0.5) !important;
+}
+
+/* Gold / Royal variation for special buttons */
+.btn-cart-gold-glow {
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s cubic-bezier(0.16, 1, 0.3, 1), filter 0.2s ease !important;
+  will-change: transform, box-shadow;
+}
+
+.btn-cart-gold-glow:hover {
+  transform: scale(1.05) translateY(-1.5px) !important;
+  box-shadow: 0 0 22px rgba(201, 168, 76, 0.8), 0 0 40px rgba(245, 158, 11, 0.45), inset 0 0 8px rgba(255, 255, 255, 0.4) !important;
+  filter: brightness(1.12) !important;
+}
+
+.btn-cart-gold-glow:active {
+  transform: scale(0.95) translateY(0) !important;
+  box-shadow: 0 0 10px rgba(201, 168, 76, 0.5) !important;
+}
+
+/* Reaction Hearts Floating Up Animation (Smooth Straight Rise & Fade Out) */
+@keyframes floatUpStraight {
+  0% {
+    transform: translateY(0) scale(0.7);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+    transform: translateY(-25px) scale(1.15);
+  }
+  75% {
+    opacity: 0.85;
+    transform: translateY(-220px) scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-340px) scale(0.75);
+  }
+}
+
+.animate-float-up-straight {
+  animation: floatUpStraight 2.5s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
+  will-change: transform, opacity;
+}
+

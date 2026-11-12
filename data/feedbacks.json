@@ -1,0 +1,133 @@
+[
+  {
+    "id": "fb-001",
+    "customerName": "Trần Minh Quân",
+    "customerLocation": "Hà Nội",
+    "customerAvatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20120%20120%22%20width%3D%22120%22%20height%3D%22120%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23e11d48%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23dc2626%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23b91c1c%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%20id%3D%22auraGlow%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.35%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23000000%22%20stop-opacity%3D%220%22%20%2F%3E%0A%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22shadow%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%224%22%20stdDeviation%3D%224%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3C%2Ffilter%3E%0A%20%20%3C%2Fdefs%3E%0A%0A%20%20%3C!--%20Outer%20Rounded%20Shield%20Frame%20--%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%22112%22%20height%3D%22112%22%20rx%3D%2228%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23f43f5e%22%20stroke-width%3D%223.5%22%20%2F%3E%0A%20%20%0A%20%20%3C!--%20Gradient%20Body%20Inside%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22104%22%20height%3D%22104%22%20rx%3D%2224%22%20fill%3D%22url(%23bgGrad)%22%20%2F%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22url(%23auraGlow)%22%20%2F%3E%0A%0A%20%20%3C!--%20Inner%20Tech%20Circuit%20Ring%20--%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2252%22%20r%3D%2232%22%20fill%3D%22%2307020a%22%20stroke%3D%22%23f43f5e%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%224%2C3%22%20opacity%3D%220.85%22%20%2F%3E%0A%0A%20%20%3C!--%20Central%20Mask%20Icon%20Emoji%20%2F%20Motif%20--%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%2258%22%20font-size%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20filter%3D%22url(%23shadow)%22%3E%F0%9F%A6%8A%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Bottom%20Call-sign%20%2F%20Initials%20Badge%20--%3E%0A%20%20%3Crect%20x%3D%2222%22%20y%3D%2286%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%2211%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23f43f5e%22%20stroke-width%3D%221.8%22%20%2F%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%22101%22%20font-family%3D%22Montserrat%2C%20system-ui%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2211%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EMQ%20%E2%80%A2%20MAGNUM%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Little%20Henshin%20Star%20Corner%20--%3E%0A%20%20%3Cpolygon%20points%3D%22100%2C16%20102%2C22%20108%2C24%20102%2C26%20100%2C32%2098%2C26%2092%2C24%2098%2C22%22%20fill%3D%22%23ffffff%22%20opacity%3D%220.9%22%20%2F%3E%0A%3C%2Fsvg%3E",
+    "rating": 5,
+    "category": "Chất lượng sản phẩm",
+    "productId": "csm-typhoon-50th",
+    "productName": "Đai biến hình Kamen Rider Ichigo CSM Typhoon 50th Anniversary",
+    "productImage": "/Ảnh Sản Phẩm/dx/Đai biến hình Kamen Rider Ichigo CSM Typhoon 50th Anniversary Bandai Japan 1.jpg",
+    "comment": "Hàng về nguyên seal băng keo Bandai Japan góc cạnh cực kỳ nét, không tì vết. Đai CSM Typhoon 50th Anniversary cầm nặng tay đầm chắc, mô tơ cánh quạt xoay êm ru không một tiếng rè, cảm biến vẫy tay siêu nhạy. Đã sưu tầm đai tại NPT Store gần 2 năm nay, lúc nào cũng an tâm tuyệt đối về chất lượng hàng chuẩn Nhật!",
+    "images": [
+      "/Ảnh Sản Phẩm/dx/Đai biến hình Kamen Rider Ichigo CSM Typhoon 50th Anniversary Bandai Japan 1.jpg",
+      "/Ảnh Sản Phẩm/dx/Đai biến hình Kamen Rider Ichigo CSM Typhoon 50th Anniversary Bandai Japan 2.jpg"
+    ],
+    "verifiedPurchase": true,
+    "date": "10/11/2026",
+    "helpfulCount": 38,
+    "adminReply": {
+      "author": "Ban Quản Trị NPT Store",
+      "date": "10/11/2026",
+      "content": "Chân thành cảm ơn anh Quân đã luôn đồng hành và ủng hộ NPTTEAMSTORE! Chiếc đai CSM Typhoon huyền thoại chúc anh trưng bày góc sưu tập thật mãn nhãn!"
+    }
+  },
+  {
+    "id": "fb-002",
+    "customerName": "Nguyễn Quốc Bảo",
+    "customerLocation": "Đà Nẵng",
+    "customerAvatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20120%20120%22%20width%3D%22120%22%20height%3D%22120%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f59e0b%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23d97706%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23b45309%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%20id%3D%22auraGlow%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.35%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23000000%22%20stop-opacity%3D%220%22%20%2F%3E%0A%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22shadow%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%224%22%20stdDeviation%3D%224%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3C%2Ffilter%3E%0A%20%20%3C%2Fdefs%3E%0A%0A%20%20%3C!--%20Outer%20Rounded%20Shield%20Frame%20--%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%22112%22%20height%3D%22112%22%20rx%3D%2228%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%223.5%22%20%2F%3E%0A%20%20%0A%20%20%3C!--%20Gradient%20Body%20Inside%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22104%22%20height%3D%22104%22%20rx%3D%2224%22%20fill%3D%22url(%23bgGrad)%22%20%2F%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22url(%23auraGlow)%22%20%2F%3E%0A%0A%20%20%3C!--%20Inner%20Tech%20Circuit%20Ring%20--%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2252%22%20r%3D%2232%22%20fill%3D%22%2307020a%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%224%2C3%22%20opacity%3D%220.85%22%20%2F%3E%0A%0A%20%20%3C!--%20Central%20Mask%20Icon%20Emoji%20%2F%20Motif%20--%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%2258%22%20font-size%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20filter%3D%22url(%23shadow)%22%3E%F0%9F%A6%97%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Bottom%20Call-sign%20%2F%20Initials%20Badge%20--%3E%0A%20%20%3Crect%20x%3D%2222%22%20y%3D%2286%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%2211%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.8%22%20%2F%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%22101%22%20font-family%3D%22Montserrat%2C%20system-ui%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2211%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EQB%20%E2%80%A2%20PASSING%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Little%20Henshin%20Star%20Corner%20--%3E%0A%20%20%3Cpolygon%20points%3D%22100%2C16%20102%2C22%20108%2C24%20102%2C26%20100%2C32%2098%2C26%2092%2C24%2098%2C22%22%20fill%3D%22%23ffffff%22%20opacity%3D%220.9%22%20%2F%3E%0A%3C%2Fsvg%3E",
+    "rating": 5,
+    "category": "Đóng gói & Vận chuyển",
+    "productId": "super-best-sengoku",
+    "productName": "Super Best DX Sengoku Driver Kamen Rider Gaim & Baron Set",
+    "productImage": "/Ảnh Sản Phẩm/dx/Super Best DX Sengoku Driver Kamen Rider Gaim & Baron Set 1.jpg",
+    "comment": "Khâu đóng gói của shop phải nói là đỉnh nhất trong các shop Tokusatsu mình từng mua. Thùng carton cứng chuyên dụng, bọc bóng khí bọt tuyết chống sốc 5 lớp dày cộm, góc hộp có nẹp bảo vệ cẩn thận. Giao từ TP.HCM ra Đà Nẵng bằng hỏa tốc mà hộp còn nguyên vẹn góc vuông 90 độ, collector nhìn là mê liền!",
+    "images": [
+      "/Ảnh Sản Phẩm/dx/Super Best DX Sengoku Driver Kamen Rider Gaim & Baron Set 1.jpg",
+      "/Ảnh Sản Phẩm/dx/Super Best DX Sengoku Driver Kamen Rider Gaim & Baron Set 2.jpg"
+    ],
+    "verifiedPurchase": true,
+    "date": "08/11/2026",
+    "helpfulCount": 29,
+    "adminReply": {
+      "author": "Đội Ngũ Kho Vận NPT",
+      "date": "08/11/2026",
+      "content": "Dạ NPT Store hiểu hộp giấy và góc hộp quan trọng thế nào với anh em Collector, nên tiêu chuẩn bọc hàng luôn là ưu tiên số 1 ạ. Cảm ơn anh Bảo rất nhiều!"
+    }
+  },
+  {
+    "id": "fb-003",
+    "customerName": "Lê Hoàng Nam",
+    "customerLocation": "TP. Hồ Chí Minh",
+    "customerAvatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20120%20120%22%20width%3D%22120%22%20height%3D%22120%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2306b6d4%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%230284c7%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230369a1%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%20id%3D%22auraGlow%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.35%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23000000%22%20stop-opacity%3D%220%22%20%2F%3E%0A%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22shadow%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%224%22%20stdDeviation%3D%224%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3C%2Ffilter%3E%0A%20%20%3C%2Fdefs%3E%0A%0A%20%20%3C!--%20Outer%20Rounded%20Shield%20Frame%20--%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%22112%22%20height%3D%22112%22%20rx%3D%2228%22%20fill%3D%22%2308020a%22%20stroke%3D%22%2322d3ee%22%20stroke-width%3D%223.5%22%20%2F%3E%0A%20%20%0A%20%20%3C!--%20Gradient%20Body%20Inside%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22104%22%20height%3D%22104%22%20rx%3D%2224%22%20fill%3D%22url(%23bgGrad)%22%20%2F%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22url(%23auraGlow)%22%20%2F%3E%0A%0A%20%20%3C!--%20Inner%20Tech%20Circuit%20Ring%20--%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2252%22%20r%3D%2232%22%20fill%3D%22%2307020a%22%20stroke%3D%22%2322d3ee%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%224%2C3%22%20opacity%3D%220.85%22%20%2F%3E%0A%0A%20%20%3C!--%20Central%20Mask%20Icon%20Emoji%20%2F%20Motif%20--%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%2258%22%20font-size%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20filter%3D%22url(%23shadow)%22%3E%F0%9F%8D%AD%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Bottom%20Call-sign%20%2F%20Initials%20Badge%20--%3E%0A%20%20%3Crect%20x%3D%2222%22%20y%3D%2286%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%2211%22%20fill%3D%22%2308020a%22%20stroke%3D%22%2322d3ee%22%20stroke-width%3D%221.8%22%20%2F%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%22101%22%20font-family%3D%22Montserrat%2C%20system-ui%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2211%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EHN%20%E2%80%A2%20POPPIN%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Little%20Henshin%20Star%20Corner%20--%3E%0A%20%20%3Cpolygon%20points%3D%22100%2C16%20102%2C22%20108%2C24%20102%2C26%20100%2C32%2098%2C26%2092%2C24%2098%2C22%22%20fill%3D%22%23ffffff%22%20opacity%3D%220.9%22%20%2F%3E%0A%3C%2Fsvg%3E",
+    "rating": 5,
+    "category": "Chất lượng sản phẩm",
+    "productId": "shf-bitter-gavv",
+    "productName": "SHF Kamen Rider Bitter Gavv Marblebreacookie Form Bandai",
+    "productImage": "/Ảnh Sản Phẩm/shf/[Chính Hãng] SHF Kamen Rider Bitter Gavv Marblebreacookie Form1.jpg",
+    "comment": "Mô hình S.H.Figuarts Bitter Gavv khớp cực kỳ đầm, biên độ tạo dáng linh hoạt, màu sơn chi tiết kẹo bánh quy sắc nét đến từng milimet. Đặt hàng qua showroom Nguyễn Trãi nhân viên đem sẵn cả khăn lau mô hình hỗ trợ kiểm tra khớp trước khi thanh toán. Trải nghiệm dịch vụ 5 sao xứng đáng!",
+    "images": [
+      "/Ảnh Sản Phẩm/shf/[Chính Hãng] SHF Kamen Rider Bitter Gavv Marblebreacookie Form1.jpg",
+      "/Ảnh Sản Phẩm/shf/[Chính Hãng] SHF Kamen Rider Bitter Gavv Marblebreacookie Form2.jpg"
+    ],
+    "verifiedPurchase": true,
+    "date": "05/11/2026",
+    "helpfulCount": 24,
+    "adminReply": {
+      "author": "Showroom NPT TP.HCM",
+      "date": "05/11/2026",
+      "content": "Cảm ơn anh Nam ghé showroom trải nghiệm! Bitter Gavv đợt này về số lượng giới hạn, anh may mắn sở hữu sớm form đặc biệt này ạ."
+    }
+  },
+  {
+    "id": "fb-004",
+    "customerName": "Phạm Hoàng Long",
+    "customerLocation": "Hải Phòng",
+    "customerAvatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20120%20120%22%20width%3D%22120%22%20height%3D%22120%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239333ea%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%237e22ce%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%236b21a8%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%20id%3D%22auraGlow%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.35%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23000000%22%20stop-opacity%3D%220%22%20%2F%3E%0A%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22shadow%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%224%22%20stdDeviation%3D%224%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3C%2Ffilter%3E%0A%20%20%3C%2Fdefs%3E%0A%0A%20%20%3C!--%20Outer%20Rounded%20Shield%20Frame%20--%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%22112%22%20height%3D%22112%22%20rx%3D%2228%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%223.5%22%20%2F%3E%0A%20%20%0A%20%20%3C!--%20Gradient%20Body%20Inside%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22104%22%20height%3D%22104%22%20rx%3D%2224%22%20fill%3D%22url(%23bgGrad)%22%20%2F%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22url(%23auraGlow)%22%20%2F%3E%0A%0A%20%20%3C!--%20Inner%20Tech%20Circuit%20Ring%20--%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2252%22%20r%3D%2232%22%20fill%3D%22%2307020a%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%224%2C3%22%20opacity%3D%220.85%22%20%2F%3E%0A%0A%20%20%3C!--%20Central%20Mask%20Icon%20Emoji%20%2F%20Motif%20--%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%2258%22%20font-size%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20filter%3D%22url(%23shadow)%22%3E%E2%9A%A1%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Bottom%20Call-sign%20%2F%20Initials%20Badge%20--%3E%0A%20%20%3Crect%20x%3D%2222%22%20y%3D%2286%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%2211%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23c084fc%22%20stroke-width%3D%221.8%22%20%2F%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%22101%22%20font-family%3D%22Montserrat%2C%20system-ui%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2211%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EHL%20%E2%80%A2%20RISING%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Little%20Henshin%20Star%20Corner%20--%3E%0A%20%20%3Cpolygon%20points%3D%22100%2C16%20102%2C22%20108%2C24%20102%2C26%20100%2C32%2098%2C26%2092%2C24%2098%2C22%22%20fill%3D%22%23ffffff%22%20opacity%3D%220.9%22%20%2F%3E%0A%3C%2Fsvg%3E",
+    "rating": 5,
+    "category": "Bảo hành & Hậu mãi",
+    "productId": "dx-zeztz-invoker",
+    "productName": "Kamen Rider Zeztz DX Henshin Belt Lord Invoker",
+    "productImage": "/Ảnh Sản Phẩm/dx/Kamen Rider Zeztz DX Henshin Belt Lord Invoker1.jpg",
+    "comment": "Lúc đầu nhận đai bị lỏng pin một chút do vận chuyển, mình liên hệ số hotline kỹ thuật NPT là được hướng dẫn rất tận tình. Shop còn chủ động gửi thêm 1 vỉ pin Maxell xịn kèm móc khóa quà tặng bù đắp. Chính sách bảo hành và hậu mãi ở đây thực sự chu đáo và giữ chữ tín hàng đầu.",
+    "images": [
+      "/Ảnh Sản Phẩm/dx/Kamen Rider Zeztz DX Henshin Belt Lord Invoker1.jpg"
+    ],
+    "verifiedPurchase": true,
+    "date": "02/11/2026",
+    "helpfulCount": 19,
+    "adminReply": {
+      "author": "Bộ Phận Kỹ Thuật NPT",
+      "date": "02/11/2026",
+      "content": "NPT Store cam kết hỗ trợ kỹ thuật trọn đời cho mọi anh em Rider. Chúc anh Long có những giờ phút giải trí và biến hình thật vui vẻ ạ!"
+    }
+  },
+  {
+    "id": "fb-005",
+    "customerName": "Đặng Đức Huy",
+    "customerLocation": "Huế",
+    "customerAvatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20120%20120%22%20width%3D%22120%22%20height%3D%22120%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f59e0b%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23d97706%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23b45309%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%20id%3D%22auraGlow%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.35%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23000000%22%20stop-opacity%3D%220%22%20%2F%3E%0A%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22shadow%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%224%22%20stdDeviation%3D%224%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3C%2Ffilter%3E%0A%20%20%3C%2Fdefs%3E%0A%0A%20%20%3C!--%20Outer%20Rounded%20Shield%20Frame%20--%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%22112%22%20height%3D%22112%22%20rx%3D%2228%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%223.5%22%20%2F%3E%0A%20%20%0A%20%20%3C!--%20Gradient%20Body%20Inside%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22104%22%20height%3D%22104%22%20rx%3D%2224%22%20fill%3D%22url(%23bgGrad)%22%20%2F%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22url(%23auraGlow)%22%20%2F%3E%0A%0A%20%20%3C!--%20Inner%20Tech%20Circuit%20Ring%20--%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2252%22%20r%3D%2232%22%20fill%3D%22%2307020a%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%224%2C3%22%20opacity%3D%220.85%22%20%2F%3E%0A%0A%20%20%3C!--%20Central%20Mask%20Icon%20Emoji%20%2F%20Motif%20--%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%2258%22%20font-size%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20filter%3D%22url(%23shadow)%22%3E%F0%9F%93%B1%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Bottom%20Call-sign%20%2F%20Initials%20Badge%20--%3E%0A%20%20%3Crect%20x%3D%2222%22%20y%3D%2286%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%2211%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23fbbf24%22%20stroke-width%3D%221.8%22%20%2F%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%22101%22%20font-family%3D%22Montserrat%2C%20system-ui%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2211%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3E%C4%90H%20%E2%80%A2%20555%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Little%20Henshin%20Star%20Corner%20--%3E%0A%20%20%3Cpolygon%20points%3D%22100%2C16%20102%2C22%20108%2C24%20102%2C26%20100%2C32%2098%2C26%2092%2C24%2098%2C22%22%20fill%3D%22%23ffffff%22%20opacity%3D%220.9%22%20%2F%3E%0A%3C%2Fsvg%3E",
+    "rating": 5,
+    "category": "Trải nghiệm & Dịch vụ",
+    "productId": "shf-ark-one",
+    "productName": "SHF Kamen Rider Ark-One Premium Bandai",
+    "productImage": "/Ảnh Sản Phẩm/shf premium/[Chính Hãng] SHF Kamen Rider Ark-One 1.jpg",
+    "comment": "Giao diện web mượt mà, tra cứu mã đơn hàng hiển thị chi tiết tiến độ. Sản phẩm SHF Ark-One thuộc bản Premium Bandai hiếm, shop giao đúng hẹn kèm thư cảm ơn viết tay rất trang trọng. Cảm giác mua sắm tại NPT Store như đang được phục vụ tại các store lớn ở Akihabara Nhật Bản vậy.",
+    "images": [
+      "/Ảnh Sản Phẩm/shf premium/[Chính Hãng] SHF Kamen Rider Ark-One 1.jpg"
+    ],
+    "verifiedPurchase": true,
+    "date": "28/10/2026",
+    "helpfulCount": 17
+  },
+  {
+    "id": "fb-006",
+    "customerName": "Vũ Gia Hân",
+    "customerLocation": "Cần Thơ",
+    "customerAvatar": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20120%20120%22%20width%3D%22120%22%20height%3D%22120%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgGrad%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23e11d48%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23dc2626%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23b91c1c%22%20%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%3CradialGradient%20id%3D%22auraGlow%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2250%25%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.35%22%20%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23000000%22%20stop-opacity%3D%220%22%20%2F%3E%0A%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22shadow%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%224%22%20stdDeviation%3D%224%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.6%22%2F%3E%0A%20%20%20%20%3C%2Ffilter%3E%0A%20%20%3C%2Fdefs%3E%0A%0A%20%20%3C!--%20Outer%20Rounded%20Shield%20Frame%20--%3E%0A%20%20%3Crect%20x%3D%224%22%20y%3D%224%22%20width%3D%22112%22%20height%3D%22112%22%20rx%3D%2228%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23f43f5e%22%20stroke-width%3D%223.5%22%20%2F%3E%0A%20%20%0A%20%20%3C!--%20Gradient%20Body%20Inside%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22104%22%20height%3D%22104%22%20rx%3D%2224%22%20fill%3D%22url(%23bgGrad)%22%20%2F%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2250%22%20r%3D%2242%22%20fill%3D%22url(%23auraGlow)%22%20%2F%3E%0A%0A%20%20%3C!--%20Inner%20Tech%20Circuit%20Ring%20--%3E%0A%20%20%3Ccircle%20cx%3D%2260%22%20cy%3D%2252%22%20r%3D%2232%22%20fill%3D%22%2307020a%22%20stroke%3D%22%23f43f5e%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%224%2C3%22%20opacity%3D%220.85%22%20%2F%3E%0A%0A%20%20%3C!--%20Central%20Mask%20Icon%20Emoji%20%2F%20Motif%20--%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%2258%22%20font-size%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20filter%3D%22url(%23shadow)%22%3E%F0%9F%90%89%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Bottom%20Call-sign%20%2F%20Initials%20Badge%20--%3E%0A%20%20%3Crect%20x%3D%2222%22%20y%3D%2286%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%2211%22%20fill%3D%22%2308020a%22%20stroke%3D%22%23f43f5e%22%20stroke-width%3D%221.8%22%20%2F%3E%0A%20%20%3Ctext%20x%3D%2260%22%20y%3D%22101%22%20font-family%3D%22Montserrat%2C%20system-ui%2C%20sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2211%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3EGH%20%E2%80%A2%20BRAVE%3C%2Ftext%3E%0A%0A%20%20%3C!--%20Little%20Henshin%20Star%20Corner%20--%3E%0A%20%20%3Cpolygon%20points%3D%22100%2C16%20102%2C22%20108%2C24%20102%2C26%20100%2C32%2098%2C26%2092%2C24%2098%2C22%22%20fill%3D%22%23ffffff%22%20opacity%3D%220.9%22%20%2F%3E%0A%3C%2Fsvg%3E",
+    "rating": 5,
+    "category": "Chất lượng sản phẩm",
+    "productId": "dx-gotchard-legend-raiser",
+    "productName": "Đồ chơi biến hình Kamen Rider Gotchard DX Legend Kamen Raiser",
+    "productImage": "/Ảnh Sản Phẩm/dx/Đồ chơi biến hình Kamen Rider Gotchard DX Legend Kamen Raiser.jpg",
+    "comment": "Mua tặng sinh nhật cho em trai đam mê Kamen Rider Gotchard. Âm thanh to rõ, đèn LED sáng lung linh đúng chất phim. Giá cả rất cạnh tranh so với các bên order xách tay, lại có bảo hành tem chống hàng giả đầy đủ. Chắc chắn sẽ quay lại ủng hộ shop tiếp!",
+    "images": [
+      "/Ảnh Sản Phẩm/dx/Đồ chơi biến hình Kamen Rider Gotchard DX Legend Kamen Raiser.jpg"
+    ],
+    "verifiedPurchase": true,
+    "date": "25/10/2026",
+    "helpfulCount": 14
+  }
+]
